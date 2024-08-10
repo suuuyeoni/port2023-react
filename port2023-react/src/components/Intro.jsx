@@ -3,7 +3,7 @@ import React from "react"
 import about from "../assets/img/about.png";
 
 const introText = {
-  title: "LEE DOBORN",
+  title: "LEE SUYEON",
   desc : ["talent is","found at the end of the","effort"]
 }
 
