@@ -54,6 +54,7 @@ const Site = () => {
         <h2 className="site__title">Site coding <em>나의 작업물</em></h2>
         <div className="site__wrap">
           {siteText.map((site, key)=>(
+            // eslint-disable-next-line no-template-curly-in-string
             <article className={'site__item s${key+1}'} key={key}>
               <span className="num">{key+1}.</span>
               <div className="text">
